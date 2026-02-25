@@ -1,0 +1,7 @@
+undetected-chromedriver==3.5.5
+selenium==4.15.2
+requests==2.31.0
+beautifulsoup4==4.12.2
+rich==13.7.1
+webdriver-manager==4.0.1
+fake-useragent==1.5.1
