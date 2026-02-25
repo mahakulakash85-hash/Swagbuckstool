@@ -1,0 +1,132 @@
+# 🔒 SECURITY - Protect Credentials & Logs
+
+# ⚠️ DO NOT COMMIT THESE FILES
+# They contain sensitive information
+
+# Credentials & Config (with real values)
+config_backup.py
+config_*.py
+*.env
+.env
+
+# Logs & Session Files
+*.log
+swagbucks_bot.log
+logs/
+*.log.*
+
+# Browser & Selenium Files
+chromedriver
+chromedriver.exe
+*.tmp
+chrome_*
+selenium_*
+
+# Python Files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environments
+venv/
+ENV/
+env/
+.venv
+
+# IDE & Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+.project
+.pydevproject
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# OS Files
+Thumbs.db
+.AppleDouble
+.LSOverride
+._*
+
+# Backup Files
+*.bak
+*.orig
+*.backup
+*~
+
+# Temporary Files
+*.tmp
+.tmp/
+temp/
+tmp/
+
+# Cache Files
+.cache/
+*.cache
+
+# System Files
+.vscode/settings.json
+.vscode/launch.json
+.vscode/extensions.json
+
+# Node Files (if using npm)
+node_modules/
+package-lock.json
+
+# Database Files
+*.db
+*.sqlite
+*.sqlite3
+
+# Archive Files (in case of backups)
+*.zip
+*.tar.gz
+*.rar
+
+# Keep these files
+!README.md
+!QUICKSTART.md
+!DEPLOYMENT.md
+!CHANGELOG.md
+!FINAL_SUMMARY.md
+!VERIFICATION.md
+!INDEX.md
+!COMPLETION_REPORT.md
+!main.py
+!config.py
+!requirements.txt
+!keywords.txt
+!run.py
+!setup_check.py
+!.gitignore
+
+# Important: Never commit real credentials
+# Before committing, verify:
+# 1. config.py has example credentials (not real ones)
+# 2. No .log files committed
+# 3. No __pycache__ directories
+# 4. No venv folders
